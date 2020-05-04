@@ -132,7 +132,7 @@ catch(e)
 }
 </script>
  <%! Connection conn,conn1,con,co;
-Statement st,st1,st2,st3,st4,st5,stAC,stDisconn,st00;
+Statement st,st1,st2,st3,st4,st5,stAC,stDisconn,st00,stt;
 String htmlvis1,htmlvis2,sql,sql1,sql2,sql3,sql4,sql5,sqlware,data1,data2,vehcode,location,Stamp,label1,html1,html2,html11,html22,d1,d2,t1,t2,time1,time2,fromtime,totime,ftime1,ftime2,ftime3,ttime1,ttime2,ttime3;
 String thedate="",thedate1="",startplace1="",endplace1="",thetime="",thetime1="",vehregno="",ownername="",lastlocation="",strtcode="",endcode="",startplace="",endplace="",enddate,sdate1,enddate1,stopdatetime, startdatetime,latStart="",longStart="",locationStart="",thedateStart="",thetimeStart="",firstlocation="-",location1="-";
 String mydate1="",mydate2="",porigin = "",pdest = "";
