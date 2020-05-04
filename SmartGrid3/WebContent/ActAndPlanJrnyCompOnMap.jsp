@@ -115,6 +115,8 @@ ajaxRequest.open("GET","Plannedreport.jsp?para=Rest",true);
 if(xx==7)
 {
 ajaxRequest.open("GET","Plannedreport.jsp?para=NH",true);
+
+
 }
 /*
 if(xx==5)
