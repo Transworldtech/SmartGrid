@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+<Resource auth="Container" 
+driverClassName="com.mysql.jdbc.Driver" 
+maxActive="50" 
+minActive="100" 
+maxIdle="30" 
+maxWait="10000" 
+name="smartgrid" 
+type="javax.sql.DataSource" 
+url="jdbc:mysql://173.234.153.82/smartgrid" 
+username="fleetview"
+password="1@flv" 
+removeAbandoned="true"
+removeAbandonedTimeout="60"
+/>
+
+<Resource auth="Container" 
+driverClassName="com.mysql.jdbc.Driver" 
+maxActive="50" 
+minActive="100" 
+maxIdle="30" 
+maxWait="10000" 
+name="db_gps"
+type="javax.sql.DataSource" 
+url="jdbc:mysql://173.234.153.82/db_gps" 
+username="fleetview"
+password="1@flv" 
+removeAbandoned="true"
+removeAbandonedTimeout="60"
+/>
+
+</Context>
